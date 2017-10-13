@@ -14,6 +14,9 @@
 		7B39D5C259E7E0F3BAE17F803FB2801B /* Pods-msireau2017_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A39D37565B9F0FC647876B46B2F0E601 /* Pods-msireau2017_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7E9F5F58F811C853C1F12B282175AFAF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		9458D3BDC936F8D58143F254F37F97A8 /* Pods-msireau2017_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7BAB6922D38243FAEC2F03C4D80E59D8 /* Pods-msireau2017_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A35C67821F91255500F44DF3 /* article.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A35C67801F91255500F44DF3 /* article.xcdatamodeld */; };
+		A35C67891F91264E00F44DF3 /* Article+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = A35C67871F91264E00F44DF3 /* Article+CoreDataClass.swift */; };
+		A35C678A1F91264E00F44DF3 /* Article+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = A35C67881F91264E00F44DF3 /* Article+CoreDataProperties.swift */; };
 		A3BA717101F73941F296AA29AF64C578 /* Pods-msireau2017_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 41E92573985D123619B11DA221C055E0 /* Pods-msireau2017_Tests-dummy.m */; };
 		BC5016568CF4A0D3BB680C6A3F8E0EC7 /* Pods-msireau2017_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D6EB8DE5BAA90F1E61A5C5EA99CB427 /* Pods-msireau2017_Example-dummy.m */; };
 		DDFE8209E75E42324FE8FD5DD99E59CB /* msireau2017-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 40C2EDF030B3DA78F16404C43CC11A96 /* msireau2017-dummy.m */; };
@@ -54,6 +57,9 @@
 		8D6EB8DE5BAA90F1E61A5C5EA99CB427 /* Pods-msireau2017_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-msireau2017_Example-dummy.m"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9C2A4FF405C5A02E851BFD736DD54C0B /* Pods-msireau2017_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-msireau2017_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A35C67811F91255500F44DF3 /* article.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = article.xcdatamodel; sourceTree = "<group>"; };
+		A35C67871F91264E00F44DF3 /* Article+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Article+CoreDataClass.swift"; path = "msireau2017/Classes/Article+CoreDataClass.swift"; sourceTree = "<group>"; };
+		A35C67881F91264E00F44DF3 /* Article+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Article+CoreDataProperties.swift"; path = "msireau2017/Classes/Article+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		A39D37565B9F0FC647876B46B2F0E601 /* Pods-msireau2017_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-msireau2017_Tests-umbrella.h"; sourceTree = "<group>"; };
 		A4686E29CC02961F1DCF3570FC61A062 /* Pods-msireau2017_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-msireau2017_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		A7E7973F8D11C4937C3B0C1EAD89B663 /* Pods-msireau2017_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-msireau2017_Example.debug.xcconfig"; sourceTree = "<group>"; };
@@ -161,6 +167,9 @@
 		AFE7BF82FDABB270AADDC9DE83B3B906 /* msireau2017 */ = {
 			isa = PBXGroup;
 			children = (
+				A35C67871F91264E00F44DF3 /* Article+CoreDataClass.swift */,
+				A35C67881F91264E00F44DF3 /* Article+CoreDataProperties.swift */,
+				A35C67801F91255500F44DF3 /* article.xcdatamodeld */,
 				E4022FAE9281E6126161116FC33FAA73 /* ReplaceMe.swift */,
 				D0B8BDF55293413B9974FAE2E6E18EED /* Support Files */,
 			);
@@ -330,7 +339,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				DDFE8209E75E42324FE8FD5DD99E59CB /* msireau2017-dummy.m in Sources */,
+				A35C678A1F91264E00F44DF3 /* Article+CoreDataProperties.swift in Sources */,
 				15EB57025AF55A49EC849F3C0367D52C /* ReplaceMe.swift in Sources */,
+				A35C67891F91264E00F44DF3 /* Article+CoreDataClass.swift in Sources */,
+				A35C67821F91255500F44DF3 /* article.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -716,6 +728,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A35C67801F91255500F44DF3 /* article.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A35C67811F91255500F44DF3 /* article.xcdatamodel */,
+			);
+			currentVersion = A35C67811F91255500F44DF3 /* article.xcdatamodel */;
+			path = article.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 }
