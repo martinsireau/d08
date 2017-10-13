@@ -30,7 +30,8 @@ hello world voici mon app
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'msireau2017/Classes/**/*'
+  s.source_files = 'msireau2017/Classes/*'
+  s.resources = 'msireau2017/Classes/article.xcdatamodeld'
   
   # s.resource_bundles = {
   #   'msireau2017' => ['msireau2017/Assets/*.png']
