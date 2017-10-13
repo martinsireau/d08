@@ -30,11 +30,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		04A49A1D4CC1EB994FB389E9134C16E5 /* msireau2017.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = msireau2017.framework; path = msireau2017.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		04A49A1D4CC1EB994FB389E9134C16E5 /* msireau2017.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = msireau2017.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		05E860A73D6634BCDE432D52E3718346 /* Pods-msireau2017_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-msireau2017_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		16EFA69DDDEE55653059B2A73A04CDC0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		214E901CFCE315B9DF25B8D966DD3DEE /* msireau2017.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = msireau2017.modulemap; sourceTree = "<group>"; };
-		270152DAF90B8F2D5E0502D26435B0B8 /* Pods-msireau2017_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-msireau2017_Example.modulemap"; sourceTree = "<group>"; };
+		214E901CFCE315B9DF25B8D966DD3DEE /* msireau2017.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = msireau2017.modulemap; sourceTree = "<group>"; };
+		270152DAF90B8F2D5E0502D26435B0B8 /* Pods-msireau2017_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-msireau2017_Example.modulemap"; sourceTree = "<group>"; };
 		2A4810A5164878BA909E2540C8A2B165 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3D2C4B6A2357317C0537450523711280 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3D346A5BFF743D90AEDEBD7F0C53209F /* msireau2017-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "msireau2017-umbrella.h"; sourceTree = "<group>"; };
@@ -43,16 +43,16 @@
 		41E92573985D123619B11DA221C055E0 /* Pods-msireau2017_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-msireau2017_Tests-dummy.m"; sourceTree = "<group>"; };
 		470A55EB3B55BCD306CBEEB70F9B57D4 /* Pods-msireau2017_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-msireau2017_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		57FE7179F15BC7EE469597877908EF1B /* msireau2017-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "msireau2017-prefix.pch"; sourceTree = "<group>"; };
-		5D9027D8E5A27A46FE39FDB493DE02BC /* Pods_msireau2017_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_msireau2017_Example.framework; path = "Pods-msireau2017_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D9027D8E5A27A46FE39FDB493DE02BC /* Pods_msireau2017_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_msireau2017_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		6DCCD2B75761C00189EFEA487330E7D1 /* Pods-msireau2017_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-msireau2017_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		74F9F2E71B031FE7EA2353F453E430F9 /* Pods-msireau2017_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-msireau2017_Tests.modulemap"; sourceTree = "<group>"; };
+		74F9F2E71B031FE7EA2353F453E430F9 /* Pods-msireau2017_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-msireau2017_Tests.modulemap"; sourceTree = "<group>"; };
 		7BAB6922D38243FAEC2F03C4D80E59D8 /* Pods-msireau2017_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-msireau2017_Example-umbrella.h"; sourceTree = "<group>"; };
 		7EA632FA0C76FFE7821DF1ECFC7ACCE9 /* msireau2017.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = msireau2017.xcconfig; sourceTree = "<group>"; };
 		808E8D472C36E78F032B4FA1F1E776DE /* Pods-msireau2017_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-msireau2017_Example.release.xcconfig"; sourceTree = "<group>"; };
-		8C6B4E542F7581D8B5F11A94ACFA1499 /* Pods_msireau2017_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_msireau2017_Tests.framework; path = "Pods-msireau2017_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C6B4E542F7581D8B5F11A94ACFA1499 /* Pods_msireau2017_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_msireau2017_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D6EB8DE5BAA90F1E61A5C5EA99CB427 /* Pods-msireau2017_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-msireau2017_Example-dummy.m"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9C2A4FF405C5A02E851BFD736DD54C0B /* Pods-msireau2017_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-msireau2017_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		A39D37565B9F0FC647876B46B2F0E601 /* Pods-msireau2017_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-msireau2017_Tests-umbrella.h"; sourceTree = "<group>"; };
 		A4686E29CC02961F1DCF3570FC61A062 /* Pods-msireau2017_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-msireau2017_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -296,6 +296,14 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
 				LastUpgradeCheck = 0700;
+				TargetAttributes = {
+					E7ABE4411A06D1A748E5CC52BA675A88 = {
+						LastSwiftMigration = 0830;
+					};
+					F5AB676E492077E0A705FAB63462C59A = {
+						LastSwiftMigration = 0830;
+					};
+				};
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -426,7 +434,7 @@
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -500,7 +508,7 @@
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -537,6 +545,7 @@
 				PRODUCT_NAME = Pods_msireau2017_Tests;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -660,6 +669,7 @@
 				PRODUCT_NAME = Pods_msireau2017_Tests;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
